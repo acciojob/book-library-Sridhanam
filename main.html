@@ -4,10 +4,90 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body{
+			Background-color: #f8f8f8;
+		}
+        .book-library{
+            background-color: #ffffff;
+            width:250px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            height: 38rem;
+            padding:10px;
+            padding-top:0px;
+			box-shadow:3px 3px 3px 3px grey;
+        }
+        .book-library h1{
+            background-color: lightgray;
+            margin-bottom: 0px;
+            text-align: center;
+            height: 10px;
+            padding: 6px;
+			font-size: 10px;
+
+        }
+        .book{
+            background-color: lightgrey;
+            text-align: center;
+            padding-top:5px;
+            padding-bottom: 5px;
+            padding: 5px;
+        }
+        .book div{
+            background-color: #2ecc71;
+            width:100%;
+            border:1px;
+            border-radius: 4px;
+            color:white;
+            font-size: 7px;
+            padding-top: 5px;
+            height: 10px;
+            text-align: center;
+        }
+        .book-library img{
+            height:130px;
+        }
+        .book h2{
+            text-align: left;
+            font-size: 10px;
+            margin:0px;
+        }
+		.book p{
+			font-size:7px;
+			margin:0px;
+            text-align: left;;
+			color:#777777;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="book-library">
+		<h1>Book Library</h1>
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg">
+			<h2>Spy in the Amber</h2>
+			<p>by someone knowlegable</p>
+			<div>Rs 400</div>
+		</div>
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg">
+			<h2>Sacred Games</h2>
+			<p>by someone knowlegable</p>
+			<div>Rs 400</div>
+		</div>
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg">
+			<h2>Byomkesh Bakshi</h2>
+			<p>by someone knowlegable</p>
+			<div>Rs 400</div>
+		</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
